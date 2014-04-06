@@ -1,0 +1,20 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+p em {
+	color: yellow;
+}
+<p> This is <em>important. </em></p>
+p
+	{color: white;
+	background-color: green;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+p {
+	color: red;
+	color: #ff0000;
+	color: rgb(255, 0, 0);
+}
+
