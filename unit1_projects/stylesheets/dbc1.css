@@ -1,10 +1,22 @@
-	font-family: Arial, sans-serif;
-	font-size: 12px;
+html {
+	font-family: "Times New Roman", sans-serif;
+	font-size: 20px;
 	font-weight: bold;
-}
-p {
-	color: red;
-	color: #ff0000;
-	color: rgb(255, 0, 0);
+	background: blue;
 }
 
+p {
+	color: yellow;
+}
+
+.blue_paragraph {
+	color: pink;
+}
+
+#cow_image {
+	width: 100px;
+	height: 100px;
+}
+li{
+	display:inline;
+}
