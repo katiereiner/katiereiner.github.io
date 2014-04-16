@@ -2,15 +2,15 @@ html {
 	font-family: "Times New Roman", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-	background: blue;
+	background: red;
 }
 
 p {
-	color: yellow;
+	color: blue;
 }
 
 .blue_paragraph {
-	color: pink;
+	color: blue;
 }
 
 #cow_image {
@@ -19,4 +19,10 @@ p {
 }
 li{
 	display:inline;
+}
+#UL {
+	background-color: green;
+	margin-left: 800px;
+	margin-bottom:1000px;
+	margin-top: 0px;
 }
