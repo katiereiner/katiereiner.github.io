@@ -1,12 +1,16 @@
-body {
+html{
 	background-color:yellow;
+}
+#nav {
 	margin:50pt;
 	border:solid;
 	border-color:grey;
 	border-width:20pt;
 	padding:50pt;
+	text-align:center;
 }
 h1 {
+	margin-top:40px;
 	font-family:helvetica;
 	font-size:3em;
 	color:green;
