@@ -1,8 +1,14 @@
 body {
 	background-color:yellow;
+	margin:50pt;
+	border:solid;
+	border-color:grey;
+	border-width:20pt;
+	padding:50pt;
 }
 h1 {
 	font-family:helvetica;
 	font-size:3em;
 	color:green;
+	text-align:center;
 }
