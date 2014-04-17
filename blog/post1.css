@@ -3,3 +3,16 @@ html {
 	color:green;
 	font-family:helvetica; 
 }
+body {
+	margin:50pt;
+	border:solid;
+	border-color:grey;
+	border-width:20pt;
+	padding:50pt;
+}
+p {
+	text-align:center;
+}
+h1 {
+	text-align:center;
+}
