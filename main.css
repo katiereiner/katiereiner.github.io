@@ -9,10 +9,22 @@ html{
 	padding:50pt;
 	text-align:center;
 }
-h1 {
+#main_photo {
+	margin-top:40px;
+	width:100px;
+	height:100px;
+	text-align:center;
+	margin-left:450px;
+
+}
+h2 {
 	margin-top:40px;
 	font-family:helvetica;
 	font-size:3em;
 	color:blue;
 	text-align:center;
+}
+
+#email {
+	margin-bottom:50px;
 }
