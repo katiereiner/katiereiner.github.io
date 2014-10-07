@@ -63,11 +63,12 @@ footer{
 @media (max-width: 600px){
 	.pictures {
 	position:relative;
-	top:200px;
-	left:10%;
+	top:300px;
+	left:5%;
 	padding:2%;
-	height:90px;
-	width:90px;
+	height:70px;
+	width:70px;
+	margin-top:10%;
 	}
 
 	#aboutme {
@@ -78,6 +79,7 @@ footer{
 	left:12%;
 	top:30%;
 	text-align:center;
+	margin-bottom:10%;
 	}
 
 	nav li {
