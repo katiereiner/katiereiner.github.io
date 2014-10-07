@@ -91,6 +91,12 @@ footer{
 	margin-right: 5%;
 	text-align: center;
 	}
+
+	footer{
+	position: fixed;
+	bottom: 0px;
+	left:20%;
+	}
 }
 
 
