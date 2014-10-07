@@ -63,7 +63,7 @@ footer{
 @media (max-width: 600px){
 	.pictures {
 	position:relative;
-	top:380px;
+	top:200px;
 	left:10%;
 	padding:2%;
 	height:90px;
@@ -75,8 +75,8 @@ footer{
 	height:10%;
 	font-size: 12px;
 	position:absolute;
-	left:10%;
-	top:25%;
+	left:12%;
+	top:30%;
 	text-align:center;
 	}
 
