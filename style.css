@@ -63,8 +63,8 @@ footer{
 @media (max-width: 600px){
 	.pictures {
 	position:relative;
-	top:300px;
-	left:5%;
+	top:250px;
+	left:7%;
 	padding:2%;
 	height:70px;
 	width:70px;
