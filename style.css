@@ -60,7 +60,15 @@ footer{
 	width:150px;
 }
 
-@media (max-width: 600px){
+.education {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 600px) and (min-width: 400) {
+
+}
+
+@media (max-width: 400px){
 	.pictures {
 	position:relative;
 	top:250px;
@@ -98,6 +106,7 @@ footer{
 	left:16%;
 	}
 }
+
 
 
 
