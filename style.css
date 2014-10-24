@@ -62,6 +62,8 @@ footer{
 
 .education {
 	font-family: 'Roboto', sans-serif;
+	position:absolute;
+	top:150px;
 }
 
 @media (max-width: 600px) and (min-width: 400px) {
@@ -101,6 +103,8 @@ footer{
 	.education {
 	font-family: 'Roboto', sans-serif;
 	color:green;
+	position:absolute;
+	top:150px;
 	}
 }
 
@@ -149,6 +153,8 @@ footer{
 	.education {
 	font-family: 'Roboto', sans-serif;
 	color:blue;
+	position:absolute;
+	top:150px;
 	}
 }
 
