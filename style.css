@@ -21,6 +21,16 @@ nav li {
 	margin-right: 5%;
 	text-align: center;
 }
+.current {
+	text-decoration:overline;
+	color:blue;
+}
+
+#timestamp {
+	position: fixed;
+	bottom: 40px;
+	left:30%;
+}
 
 li a {
 	font-size:20px;
@@ -49,6 +59,13 @@ footer{
 	left:34%;
 	top:20%;
 	text-align:center;
+}
+
+.experience {
+	position:relative;
+	margin-top:5%;
+	top:100px;
+	left:40%;
 }
 
 .pictures {
@@ -106,6 +123,13 @@ footer{
 	position:absolute;
 	top:150px;
 	}
+	#timestamp {
+	font-size:15px;
+	position: fixed;
+	bottom: 40px;
+	left:20%;
+	color:blue;
+	}
 }
 
 @media (max-width: 400px){
@@ -155,6 +179,15 @@ footer{
 	color:blue;
 	position:absolute;
 	top:150px;
+	}
+
+
+	#timestamp {
+	font-size:10px;
+	position: fixed;
+	bottom: 40px;
+	left:15%;
+	color:red;
 	}
 }
 

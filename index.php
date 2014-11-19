@@ -13,16 +13,12 @@
 <meta name="viewport" content="width=device-width" />
 </head>
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="aboutme.html">About Me</a></li>
-					<li><a href="education.html">Education</a></li>
-					<li><a href="experience.html">Experience</a></li>
-				</ul>
-			</nav>
-		</header>
+		<?php 
+		$fName = basename(__FILE__);
+		?>
+		<?php 
+			include 'header.php';
+		?>
 		<div id="aboutme">
 			I'm Katie. <br><br>
 
@@ -31,10 +27,19 @@
 		<img src="friends.jpg" class="pictures" id="friends" alt="My friends and I">
 		<img src="dad.jpg" class="pictures" id="dad" alt="My dad!">
 		<img src="family.jpg" class="pictures" id="family" alt="My mom and brother :)">
-		<footer>
-  			<p>Made with <span id="love">Love</span> by Katie Reiner</p>
-		</footer>
+<span id="timestamp">
+	<?php
+// outputs e.g.  somefile.txt was last modified: December 29 2002 22:16:23.
+
+
+if (file_exists($fName)) {
+    echo "$fName was last modified: " . date ("F d Y H:i:s.", filemtime($filename));
+}
+?></span>
 	</body>
+	<?php
+		include 'footer.php';
+	?>
 </html>
 
 

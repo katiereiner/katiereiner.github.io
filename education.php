@@ -13,16 +13,12 @@
 <meta name="viewport" content="width=device-width" />
 </head>
 <body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="aboutme.html">About Me</a></li>
-					<li><a href="education.html">Education</a></li>
-					<li><a href="experience.html">Experience</a></li>
-				</ul>
-			</nav>
-		</header>
+	<?php 
+		$fName = basename(__FILE__);
+		?>
+		<?php 
+			include 'header.php';
+		?>
 
 <div class="education">
 	<h4 class="mich_holder">UNIVERSITY OF MICHIGAN - ROSS SCHOOL OF BUSINESS</h4>
@@ -42,4 +38,16 @@
 		<p>My time at Dev Bootcamp was life changing. I spent 9 weeks learning Ruby on Rails and Javascript, worked with multiple teams as different positions and most importantly, learned "how to" learn.</p>
 	</div>
 </div>
+<span id="timestamp"><?php
+// outputs e.g.  somefile.txt was last modified: December 29 2002 22:16:23.
+
+$filename = 'education.php';
+if (file_exists($filename)) {
+    echo "$filename was last modified: " . date ("F d Y H:i:s.", filemtime($filename));
+}
+?></span>
+	<?php
+		include 'footer.php';
+	?>
+</body>
 </html>
