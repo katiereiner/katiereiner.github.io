@@ -39,9 +39,8 @@
 		<p>My time at Dev Bootcamp was life changing. I spent 9 weeks learning Ruby on Rails and Javascript, worked with multiple teams as different positions and most importantly, learned "how to" learn.</p>
 	</div>
 </div>
-<span id="timestamp"><?php
-// outputs e.g.  somefile.txt was last modified: December 29 2002 22:16:23.
-
+<span id="timestamp">
+	<?php
 $filename = 'education.php';
 if (file_exists($filename)) {
     echo "$filename was last modified: " . date ("F d Y H:i:s.", filemtime($filename));
